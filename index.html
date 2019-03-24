@@ -17,10 +17,8 @@
 				var feet = $("#feet").val();
 				var inches = $("#inches").val();
 				var height = (parseInt(feet) * 12) + parseInt(inches);
-				console.log(height);
 				var bmi = (Math.round((weight/Math.pow(height, 2)) * 703).toFixed(1));
 				document.getElementById("bmi").innerText = "Your BMI is "+bmi + ".";
-				console.log(feet,inches,weight,bmi)
 			}
 		</script>
 	</head>
