@@ -4,8 +4,8 @@
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>bmi calculator</title>
-		<meta name="description" content="projects by laura f.">
+		<title>Body Mass Index (BMI) Calculator</title>
+		<meta name="description" content="Use this tool to calculate your BMI and determine if you are within the healthy range, underweight, or overweight.">
 		<link rel="stylesheet" href="css/foundation.css">
 		<link rel="stylesheet" href="css/app.css">
 		<link rel='shortcut icon' href='' type='image/x-icon'/ >
@@ -18,7 +18,7 @@
 				var inches = $("#inches").val();
 				var height = (parseInt(feet) * 12) + parseInt(inches);
 				var bmi = ((weight/Math.pow(height, 2)) * 703).toFixed(1);
-				document.getElementById("bmi").innerText = "Your BMI is "+bmi + ".";
+				document.getElementById("bmi").innerText = "Your BMI is " + bmi + ".";
 			}
 		</script>
 	</head>
